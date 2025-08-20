@@ -43,17 +43,14 @@ npx hardhat compile
 ### 5. Deploy contracts
 
 ```bash
-npx hardhat run scripts/deploy.js --network <network-name>
+npx hardhat run scripts/deploy.js --network bscTestnet
 ```
 
-> Replace `<network-name>` with your desired network (`localhost`, `goerli`, etc.).
 
 ### 6. Run tests
 
 ```bash
-npx hardhat test test/stakeGovernance.test.js
-npx hardhat test test/stakeGovernanceProposal.test.js
-```
+npx hardhat test ```
 
 > Tests cover multiple staking operations, governance proposals, voting, execution, and reward claiming. Transaction hashes are logged for reference.
 
